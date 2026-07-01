@@ -3,7 +3,6 @@ class Jenny < Formula
   homepage "https://github.com/chas678/jennyj"
   url "https://github.com/chas678/jennyj/releases/download/v0.1.0/jenny.jar"
   sha256 "3ef2d049681175bca17d7715088a7fa527cef03e25a9d26d5adbbbe64f76589c"
-  version "0.1.0"
   license "MIT"
 
   depends_on "openjdk"
