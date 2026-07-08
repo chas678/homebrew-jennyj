@@ -1,8 +1,11 @@
 class Jenny < Formula
   desc "Pairwise/N-wise combinatorial test generator (Timefold port of jenny.c)"
   homepage "https://github.com/chas678/jennyj"
-  url "https://github.com/chas678/jennyj/releases/download/v0.1.0/jenny.jar"
-  sha256 "3ef2d049681175bca17d7715088a7fa527cef03e25a9d26d5adbbbe64f76589c"
+  url "https://github.com/chas678/jennyj/releases/download/v1.0.0/jenny.jar"
+  # PLACEHOLDER: v1.0.0 has not been tagged/released yet. Once it is, compute the
+  # real digest and replace this line before marking the PR ready for review:
+  #   curl -sL https://github.com/chas678/jennyj/releases/download/v1.0.0/jenny.jar | shasum -a 256 | cut -d' ' -f1
+  sha256 "REPLACE_WITH_SHA256_AFTER_v1.0.0_RELEASE"
   license "MIT"
 
   depends_on "openjdk"
