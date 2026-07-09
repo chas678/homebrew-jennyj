@@ -1,8 +1,8 @@
 class Jenny < Formula
   desc "Pairwise/N-wise combinatorial test generator (Timefold port of jenny.c)"
   homepage "https://github.com/chas678/jennyj"
-  url "https://github.com/chas678/jennyj/releases/download/v1.0.0/jenny.jar"
-  sha256 "0efbb8f99ff0e0b508f1d349f81bec1e19dae3148cc885b9fe0f51489ee0ad1e"
+  url "https://github.com/chas678/jennyj/releases/download/v1.0.1/jenny.jar"
+  sha256 "7694d0d60452d930f178693b86d48ba16af3bd39dafaeb2e2d2edd561b62255c"
   license "MIT"
 
   depends_on "openjdk"
